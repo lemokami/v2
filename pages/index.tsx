@@ -1,10 +1,18 @@
 import type { NextPage } from 'next';
+import Head from 'next/head';
 import { VscGithub, VscMail } from 'react-icons/vsc';
 
 const Home: NextPage = () => {
   return (
     <div className='flex flex-col xl:flex-row min-h-screen justify-center items-center gap-20 p-10 xl:p-24'>
-      <div className='min-w-[100px]'>
+      <Head>
+        <title>Jesswin W Varghese</title>
+        <meta
+          name='description'
+          content='Product Engineer at Hoomans who build software for the web flamboyantly.'
+        />
+      </Head>
+      <div className='min-w-[100px] h-auto'>
         <img src='/profile.png' alt='Jesswin W Varghese' />
       </div>
       <div className='max-w-2xl flex flex-col gap-10'>
@@ -25,8 +33,8 @@ const Home: NextPage = () => {
         </div>
         <div className='space-y-5'>
           <p className='text-lg'>
-            I am a final year CS undergraduate and a Frontend web developer
-            (freelance) residing in India. I am a firm believer in lifelong
+            Currently working as a Product Engineer at Hoomans. I am also a
+            final year undergraduate student who is a firm believer in lifelong
             learning and is a participant in it. Feel free to{' '}
             <a
               href='mailto:jesswinw@gmail.com'
@@ -36,11 +44,10 @@ const Home: NextPage = () => {
             if you need any help with frontend web development.
           </p>
           <p className='text-lg'>
-            I am currently working on improving my skills in the React.js
-            ecosystem. I am in pursuit to create beautiful websites within a
+            I am currently working on improving my skills to be a Full-Stack
+            Developer. I am in pursuit to create beautiful websites within a
             limited time frame. Message me if you have a website to create or
-            need help with one. I am also interested and proficient with
-            JavaScript and Cascading Style Sheets (CSS)
+            need help with one.
           </p>
         </div>
         <div className='gap-5 text-4xl hidden xl:flex'>
