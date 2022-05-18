@@ -12,7 +12,7 @@ const Home: NextPage = () => {
           content='Product Engineer at Hoomans who build software for the web flamboyantly.'
         />
       </Head>
-      <div className='min-w-[100px] h-auto'>
+      <div className='min-w-[100px] rounded-full bg-cover h-auto xl:h-32'>
         <img src='/profile.png' alt='Jesswin W Varghese' />
       </div>
       <div className='max-w-2xl flex flex-col gap-10'>
