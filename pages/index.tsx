@@ -12,8 +12,12 @@ const Home: NextPage = () => {
           content='Product Engineer at Hoomans who build software for the web flamboyantly.'
         />
       </Head>
-      <div className='min-w-[100px] rounded-full bg-cover h-auto xl:h-32'>
-        <img src='/profile.png' alt='Jesswin W Varghese' />
+      <div className='min-w-[100px] rounded-full'>
+        <img
+          src='https://avatars.githubusercontent.com/u/44605554'
+          alt='Jesswin W Varghese'
+          className='object-fill'
+        />
       </div>
       <div className='max-w-2xl flex flex-col gap-10'>
         <h1 className='font-bold text-6xl text-center xl:text-left'>
@@ -33,9 +37,8 @@ const Home: NextPage = () => {
         </div>
         <div className='space-y-5'>
           <p className='text-lg'>
-            Currently working as a Product Engineer at Hoomans. I am also a
-            final year undergraduate student who is a firm believer in lifelong
-            learning and is a participant in it. Feel free to{' '}
+            who is working as a Product Engineer at Hoomansco. I am also a
+            Full-stack web developer.
             <a
               href='mailto:jesswinw@gmail.com'
               className='underline text-red-400'>
@@ -44,10 +47,9 @@ const Home: NextPage = () => {
             if you need any help with frontend web development.
           </p>
           <p className='text-lg'>
-            I am currently working on improving my skills to be a Full-Stack
-            Developer. I am in pursuit to create beautiful websites within a
-            limited time frame. Message me if you have a website to create or
-            need help with one.
+            I am currently working on improving my skills to be a better
+            programmer. Message me if you have a website to create or need help
+            with one
           </p>
         </div>
         <div className='gap-5 text-4xl hidden xl:flex'>
